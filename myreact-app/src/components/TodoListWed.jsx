@@ -1,12 +1,11 @@
 import React from 'react';
 
-const TodoList = () => {
+const TodoListWed = () => {
     // ข้อมูลที่จะแสดง
     const todos = [
-        { id: 1, text: 'ทำความสะอาดห้อง', completed: true },
-        { id: 2, text: 'ฝึกเรียนภาษาเพิ่มเติม', completed: true },
-        { id: 3, text: 'อ่านหนังสือสอบกลางภาค', completed: false },
-        { id: 4, text: 'ให้รางวัลตัวเอง กินของที่ชอบ', completed: false }
+        { id: 1, text: 'เรียนคาบเช้าวิชา Backend', completed: true },
+        { id: 2, text: 'เดินตลาดนัดวันพุธ', completed: true },
+        { id: 3, text: 'ซื้อของมาทำอาหาร', completed: false }
     ];
     
     const completedCount = todos.filter(todo => todo.completed).length;
@@ -84,4 +83,4 @@ const TodoList = () => {
     );
 };
 
-export default TodoList;
+export default TodoListWed;
